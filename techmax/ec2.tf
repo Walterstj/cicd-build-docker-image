@@ -18,7 +18,7 @@ provider "aws" {
 terraform {
   backend "s3" {
     bucket  = "wstj-terraform-state-bucket"
-    key     = "build/terraform.tfstate"
+    key     = "build1/terraform.tfstate"
     region  = "us-east-1"
     profile = "terraform-user"
   }
